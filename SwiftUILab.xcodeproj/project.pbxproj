@@ -19,6 +19,7 @@
 		E70EFD7D2889690500EB996F /* BottomToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD7C2889690500EB996F /* BottomToolbarView.swift */; };
 		E70EFD7F2889691900EB996F /* NavigaToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD7E2889691900EB996F /* NavigaToolbarView.swift */; };
 		E70EFD8128896CC200EB996F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD8028896CC200EB996F /* MapView.swift */; };
+		E70EFD83288971D000EB996F /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD82288971D000EB996F /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E70EFD7C2889690500EB996F /* BottomToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbarView.swift; sourceTree = "<group>"; };
 		E70EFD7E2889691900EB996F /* NavigaToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigaToolbarView.swift; sourceTree = "<group>"; };
 		E70EFD8028896CC200EB996F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E70EFD82288971D000EB996F /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E70EFD7528895FF800EB996F /* Titles & Toolbars */,
 				E70EFD8028896CC200EB996F /* MapView.swift */,
+				E70EFD82288971D000EB996F /* ButtonsView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				E70EFD7228893C3300EB996F /* AboutView.swift in Sources */,
 				E70EFD7F2889691900EB996F /* NavigaToolbarView.swift in Sources */,
 				E70EFD6428893BBA00EB996F /* ContentView.swift in Sources */,
+				E70EFD83288971D000EB996F /* ButtonsView.swift in Sources */,
 				E70EFD7028893BDF00EB996F /* MainListView.swift in Sources */,
 				E70EFD792889612800EB996F /* TitlesView.swift in Sources */,
 				E70EFD6228893BBA00EB996F /* SwiftUILabApp.swift in Sources */,
