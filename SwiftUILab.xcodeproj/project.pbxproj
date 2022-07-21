@@ -11,6 +11,14 @@
 		E70EFD6428893BBA00EB996F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD6328893BBA00EB996F /* ContentView.swift */; };
 		E70EFD6628893BBB00EB996F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70EFD6528893BBB00EB996F /* Assets.xcassets */; };
 		E70EFD6928893BBB00EB996F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70EFD6828893BBB00EB996F /* Preview Assets.xcassets */; };
+		E70EFD7028893BDF00EB996F /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD6F28893BDF00EB996F /* MainListView.swift */; };
+		E70EFD7228893C3300EB996F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD7128893C3300EB996F /* AboutView.swift */; };
+		E70EFD772889601600EB996F /* LargeNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD762889601600EB996F /* LargeNavigationTitleView.swift */; };
+		E70EFD792889612800EB996F /* TitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD782889612800EB996F /* TitlesView.swift */; };
+		E70EFD7B2889638D00EB996F /* InlineTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD7A2889638D00EB996F /* InlineTitleView.swift */; };
+		E70EFD7D2889690500EB996F /* BottomToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD7C2889690500EB996F /* BottomToolbarView.swift */; };
+		E70EFD7F2889691900EB996F /* NavigaToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD7E2889691900EB996F /* NavigaToolbarView.swift */; };
+		E70EFD8128896CC200EB996F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EFD8028896CC200EB996F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		E70EFD6328893BBA00EB996F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E70EFD6528893BBB00EB996F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E70EFD6828893BBB00EB996F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E70EFD6F28893BDF00EB996F /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		E70EFD7128893C3300EB996F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		E70EFD762889601600EB996F /* LargeNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNavigationTitleView.swift; sourceTree = "<group>"; };
+		E70EFD782889612800EB996F /* TitlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesView.swift; sourceTree = "<group>"; };
+		E70EFD7A2889638D00EB996F /* InlineTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineTitleView.swift; sourceTree = "<group>"; };
+		E70EFD7C2889690500EB996F /* BottomToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbarView.swift; sourceTree = "<group>"; };
+		E70EFD7E2889691900EB996F /* NavigaToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigaToolbarView.swift; sourceTree = "<group>"; };
+		E70EFD8028896CC200EB996F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				E70EFD6128893BBA00EB996F /* SwiftUILabApp.swift */,
-				E70EFD6328893BBA00EB996F /* ContentView.swift */,
+				E70EFD7328893D2300EB996F /* Views */,
 				E70EFD6528893BBB00EB996F /* Assets.xcassets */,
 				E70EFD6728893BBB00EB996F /* Preview Content */,
 			);
@@ -65,6 +81,38 @@
 				E70EFD6828893BBB00EB996F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E70EFD7328893D2300EB996F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E70EFD6328893BBA00EB996F /* ContentView.swift */,
+				E70EFD6F28893BDF00EB996F /* MainListView.swift */,
+				E70EFD7128893C3300EB996F /* AboutView.swift */,
+				E70EFD7428895FD900EB996F /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E70EFD7428895FD900EB996F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E70EFD7528895FF800EB996F /* Titles & Toolbars */,
+				E70EFD8028896CC200EB996F /* MapView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E70EFD7528895FF800EB996F /* Titles & Toolbars */ = {
+			isa = PBXGroup;
+			children = (
+				E70EFD782889612800EB996F /* TitlesView.swift */,
+				E70EFD762889601600EB996F /* LargeNavigationTitleView.swift */,
+				E70EFD7A2889638D00EB996F /* InlineTitleView.swift */,
+				E70EFD7C2889690500EB996F /* BottomToolbarView.swift */,
+				E70EFD7E2889691900EB996F /* NavigaToolbarView.swift */,
+			);
+			path = "Titles & Toolbars";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70EFD7228893C3300EB996F /* AboutView.swift in Sources */,
+				E70EFD7F2889691900EB996F /* NavigaToolbarView.swift in Sources */,
 				E70EFD6428893BBA00EB996F /* ContentView.swift in Sources */,
+				E70EFD7028893BDF00EB996F /* MainListView.swift in Sources */,
+				E70EFD792889612800EB996F /* TitlesView.swift in Sources */,
 				E70EFD6228893BBA00EB996F /* SwiftUILabApp.swift in Sources */,
+				E70EFD7D2889690500EB996F /* BottomToolbarView.swift in Sources */,
+				E70EFD8128896CC200EB996F /* MapView.swift in Sources */,
+				E70EFD7B2889638D00EB996F /* InlineTitleView.swift in Sources */,
+				E70EFD772889601600EB996F /* LargeNavigationTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
