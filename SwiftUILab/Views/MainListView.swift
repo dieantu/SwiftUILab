@@ -19,22 +19,11 @@ struct MainListView: View {
                                    destination: TitlesView())
                     NavigationLink("\(Image(systemName: "map.fill")) Map",
                                    destination: MapView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: AboutView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: TitlesView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: AboutView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: AboutView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: TitlesView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: AboutView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: AboutView())
-                    NavigationLink("\(Image(systemName: "exclamationmark.triangle.fill")) Animations",
-                                   destination: AboutView())}
+                    NavigationLink("\(Image(systemName: "hand.tap.fill")) Haptics",
+                                   destination: HapticsView())
+                NavigationLink("\(Image(systemName: "calendar.badge.clock")) Date & Time Pickers",
+                               destination: DateTimeView())}
+
             }
             .navigationTitle("SwiftUI Lab")
         }
