@@ -22,7 +22,10 @@ struct MainListView: View {
                     NavigationLink("\(Image(systemName: "hand.tap.fill")) Haptics",
                                    destination: HapticsView())
                 NavigationLink("\(Image(systemName: "calendar.badge.clock")) Date & Time Pickers",
-                               destination: DateTimeView())}
+                               destination: DateTimeView())
+                    NavigationLink("\(Image(systemName:"chevron.right.2")) Navigation",
+                                   destination: NavListView())}
+                
 
             }
             .navigationTitle("SwiftUI Lab")
