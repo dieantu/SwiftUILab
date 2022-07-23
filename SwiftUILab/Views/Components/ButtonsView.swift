@@ -9,7 +9,29 @@ import SwiftUI
 
 struct ButtonsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Borderless button") {}
+                .padding()
+            
+            Button("Borderless destructive button", role: .destructive) {}
+                .padding()
+            
+            Button("Bordered button") {}
+                .buttonStyle(.bordered)
+                .padding()
+            
+            Button("Bordered button", role: .destructive) {}
+                .buttonStyle(.bordered)
+                .padding()
+
+            Button("Bordered prominent button") {}
+                .buttonStyle(.borderedProminent)
+            
+            Button("Bordered prominent destructive button", role: .destructive) {}
+                .buttonStyle(.borderedProminent)
+                .padding()
+        }
+        .navigationTitle("Buttons")
     }
 }
 
