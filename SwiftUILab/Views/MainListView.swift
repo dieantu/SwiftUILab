@@ -21,11 +21,19 @@ struct MainListView: View {
                                    destination: MapView())
                     NavigationLink("\(Image(systemName: "hand.tap.fill")) Haptics",
                                    destination: HapticsView())
-                NavigationLink("\(Image(systemName: "calendar.badge.clock")) Date & Time Pickers",
+                    NavigationLink("\(Image(systemName: "calendar.badge.clock")) Date & Time Pickers",
                                destination: DateTimeView())
                     NavigationLink("\(Image(systemName:"chevron.right.2")) Navigation",
-                                   destination: NavListView())}
-                
+                                   destination: NavListView())
+                    NavigationLink("\(Image(systemName:"rectangle.and.hand.point.up.left.fill")) Buttons",
+                               destination: ButtonsView())
+                    NavigationLink("\(Image(systemName:"doc.plaintext.fill")) Text Entry",
+                               destination: TextEntryView())
+                    NavigationLink("\(Image(systemName:"list.bullet.rectangle.fill")) Lists",
+                               destination: ListsView())
+                    NavigationLink("\(Image(systemName:"hourglass")) Progress View",
+                                   destination: ProgressViewView())}
+
 
             }
             .navigationTitle("SwiftUI Lab")

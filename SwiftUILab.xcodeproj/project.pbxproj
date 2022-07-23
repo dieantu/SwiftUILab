@@ -25,6 +25,20 @@
 		E7D81B4B288B0A6E00F1310F /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B4A288B0A6E00F1310F /* SheetView.swift */; };
 		E7D81B4D288B21BF00F1310F /* NavListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B4C288B21BF00F1310F /* NavListView.swift */; };
 		E7D81B4F288B254000F1310F /* NavLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B4E288B254000F1310F /* NavLinkView.swift */; };
+		E7D81B53288B80DE00F1310F /* FullScreenModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B52288B80DE00F1310F /* FullScreenModalView.swift */; };
+		E7D81B56288B832B00F1310F /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B55288B832B00F1310F /* TabView.swift */; };
+		E7D81B58288B83CD00F1310F /* OneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B57288B83CD00F1310F /* OneView.swift */; };
+		E7D81B5A288B83DA00F1310F /* TwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B59288B83DA00F1310F /* TwoView.swift */; };
+		E7D81B5C288B83E300F1310F /* ThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B5B288B83E300F1310F /* ThreeView.swift */; };
+		E7D81B5F288B8A4000F1310F /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B5E288B8A4000F1310F /* PagingView.swift */; };
+		E7D81B62288B966300F1310F /* TextEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B61288B966300F1310F /* TextEntryView.swift */; };
+		E7D81B64288B99EE00F1310F /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B63288B99EE00F1310F /* ListsView.swift */; };
+		E7D81B67288B9B2700F1310F /* PlainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B66288B9B2700F1310F /* PlainListView.swift */; };
+		E7D81B69288B9B4700F1310F /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B68288B9B4700F1310F /* GroupedListView.swift */; };
+		E7D81B6B288B9B5900F1310F /* InsetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B6A288B9B5900F1310F /* InsetListView.swift */; };
+		E7D81B6D288B9B6E00F1310F /* InsetGroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B6C288B9B6E00F1310F /* InsetGroupedListView.swift */; };
+		E7D81B6F288B9B7F00F1310F /* SidebarListview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B6E288B9B7F00F1310F /* SidebarListview.swift */; };
+		E7D81B71288BA22F00F1310F /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D81B70288BA22F00F1310F /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +61,20 @@
 		E7D81B4A288B0A6E00F1310F /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		E7D81B4C288B21BF00F1310F /* NavListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavListView.swift; sourceTree = "<group>"; };
 		E7D81B4E288B254000F1310F /* NavLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkView.swift; sourceTree = "<group>"; };
+		E7D81B52288B80DE00F1310F /* FullScreenModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModalView.swift; sourceTree = "<group>"; };
+		E7D81B55288B832B00F1310F /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		E7D81B57288B83CD00F1310F /* OneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneView.swift; sourceTree = "<group>"; };
+		E7D81B59288B83DA00F1310F /* TwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoView.swift; sourceTree = "<group>"; };
+		E7D81B5B288B83E300F1310F /* ThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeView.swift; sourceTree = "<group>"; };
+		E7D81B5E288B8A4000F1310F /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		E7D81B61288B966300F1310F /* TextEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryView.swift; sourceTree = "<group>"; };
+		E7D81B63288B99EE00F1310F /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		E7D81B66288B9B2700F1310F /* PlainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainListView.swift; sourceTree = "<group>"; };
+		E7D81B68288B9B4700F1310F /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
+		E7D81B6A288B9B5900F1310F /* InsetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetListView.swift; sourceTree = "<group>"; };
+		E7D81B6C288B9B6E00F1310F /* InsetGroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGroupedListView.swift; sourceTree = "<group>"; };
+		E7D81B6E288B9B7F00F1310F /* SidebarListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarListview.swift; sourceTree = "<group>"; };
+		E7D81B70288BA22F00F1310F /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +143,9 @@
 				E70EFD82288971D000EB996F /* ButtonsView.swift */,
 				E70EFD842889728400EB996F /* HapticsView.swift */,
 				E70EFD872889AE7900EB996F /* DateTimeView.swift */,
+				E7D81B61288B966300F1310F /* TextEntryView.swift */,
+				E7D81B65288B9A3500F1310F /* List  */,
+				E7D81B70288BA22F00F1310F /* ProgressView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -137,8 +168,35 @@
 				E7D81B4C288B21BF00F1310F /* NavListView.swift */,
 				E7D81B4A288B0A6E00F1310F /* SheetView.swift */,
 				E7D81B4E288B254000F1310F /* NavLinkView.swift */,
+				E7D81B52288B80DE00F1310F /* FullScreenModalView.swift */,
+				E7D81B55288B832B00F1310F /* TabView.swift */,
+				E7D81B54288B82F000F1310F /* ExtraTabViews */,
+				E7D81B5E288B8A4000F1310F /* PagingView.swift */,
 			);
 			path = Navigations;
+			sourceTree = "<group>";
+		};
+		E7D81B54288B82F000F1310F /* ExtraTabViews */ = {
+			isa = PBXGroup;
+			children = (
+				E7D81B57288B83CD00F1310F /* OneView.swift */,
+				E7D81B59288B83DA00F1310F /* TwoView.swift */,
+				E7D81B5B288B83E300F1310F /* ThreeView.swift */,
+			);
+			path = ExtraTabViews;
+			sourceTree = "<group>";
+		};
+		E7D81B65288B9A3500F1310F /* List  */ = {
+			isa = PBXGroup;
+			children = (
+				E7D81B63288B99EE00F1310F /* ListsView.swift */,
+				E7D81B66288B9B2700F1310F /* PlainListView.swift */,
+				E7D81B68288B9B4700F1310F /* GroupedListView.swift */,
+				E7D81B6A288B9B5900F1310F /* InsetListView.swift */,
+				E7D81B6C288B9B6E00F1310F /* InsetGroupedListView.swift */,
+				E7D81B6E288B9B7F00F1310F /* SidebarListview.swift */,
+			);
+			path = "List ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,21 +269,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D81B5F288B8A4000F1310F /* PagingView.swift in Sources */,
 				E70EFD7228893C3300EB996F /* AboutView.swift in Sources */,
 				E70EFD7F2889691900EB996F /* NavigaToolbarView.swift in Sources */,
 				E70EFD6428893BBA00EB996F /* ContentView.swift in Sources */,
 				E70EFD83288971D000EB996F /* ButtonsView.swift in Sources */,
 				E70EFD7028893BDF00EB996F /* MainListView.swift in Sources */,
+				E7D81B53288B80DE00F1310F /* FullScreenModalView.swift in Sources */,
 				E70EFD792889612800EB996F /* TitlesView.swift in Sources */,
+				E7D81B64288B99EE00F1310F /* ListsView.swift in Sources */,
+				E7D81B69288B9B4700F1310F /* GroupedListView.swift in Sources */,
 				E7D81B4D288B21BF00F1310F /* NavListView.swift in Sources */,
+				E7D81B62288B966300F1310F /* TextEntryView.swift in Sources */,
+				E7D81B6B288B9B5900F1310F /* InsetListView.swift in Sources */,
+				E7D81B6D288B9B6E00F1310F /* InsetGroupedListView.swift in Sources */,
+				E7D81B67288B9B2700F1310F /* PlainListView.swift in Sources */,
 				E7D81B4B288B0A6E00F1310F /* SheetView.swift in Sources */,
+				E7D81B5A288B83DA00F1310F /* TwoView.swift in Sources */,
+				E7D81B71288BA22F00F1310F /* ProgressView.swift in Sources */,
 				E70EFD6228893BBA00EB996F /* SwiftUILabApp.swift in Sources */,
 				E70EFD882889AE7900EB996F /* DateTimeView.swift in Sources */,
 				E7D81B4F288B254000F1310F /* NavLinkView.swift in Sources */,
 				E70EFD7D2889690500EB996F /* BottomToolbarView.swift in Sources */,
 				E70EFD8128896CC200EB996F /* MapView.swift in Sources */,
+				E7D81B5C288B83E300F1310F /* ThreeView.swift in Sources */,
 				E70EFD7B2889638D00EB996F /* InlineTitleView.swift in Sources */,
 				E70EFD772889601600EB996F /* LargeNavigationTitleView.swift in Sources */,
+				E7D81B56288B832B00F1310F /* TabView.swift in Sources */,
+				E7D81B58288B83CD00F1310F /* OneView.swift in Sources */,
+				E7D81B6F288B9B7F00F1310F /* SidebarListview.swift in Sources */,
 				E70EFD852889728400EB996F /* HapticsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
