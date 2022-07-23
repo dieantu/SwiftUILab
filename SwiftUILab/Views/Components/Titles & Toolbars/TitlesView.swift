@@ -18,7 +18,7 @@ struct TitlesView: View {
                             destination: BottomToolbarView())
             NavigationLink("Navigation Toolbar",
                             destination: NavigaToolbarView())
-
+            
         .navigationTitle("Titles & Toolbars")
         }
     }
